@@ -8,4 +8,4 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
-from market import routes
+from market import routes # IDK why but DO NOT MOVE THIS LINE
